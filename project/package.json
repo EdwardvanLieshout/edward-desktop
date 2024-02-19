@@ -13,6 +13,7 @@
     "@angular/platform-browser": "~17.1.0",
     "@angular/platform-browser-dynamic": "~17.1.0",
     "@angular/router": "~17.1.0",
+    "@edward-desktop/styles": "file:shared-components/src/lib/styles",
     "@nx/angular": "18.0.4",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

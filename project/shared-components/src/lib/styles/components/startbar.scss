@@ -1,0 +1,15 @@
+@import '../abstracts/measurements.scss';
+
+.startbar {
+    background-color: $colour-light-gray;
+    width: 100%;
+    height: $startbar-height;
+    border-top: solid 2px $colour-white;
+    outline: solid 2px $colour-light-gray;
+
+    &__container {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}

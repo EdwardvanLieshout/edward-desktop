@@ -7,6 +7,5 @@ import { StartbarComponent } from '@project/startbar';
   standalone: true,
   imports: [CommonModule, StartbarComponent],
   templateUrl: './main-container.component.html',
-  styleUrl: './main-container.component.scss',
 })
 export class MainContainerComponent {}

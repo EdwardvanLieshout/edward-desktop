@@ -6,6 +6,5 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './startbar.component.html',
-  styleUrl: './startbar.component.scss',
 })
 export class StartbarComponent {}

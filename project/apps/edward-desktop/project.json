@@ -21,7 +21,13 @@
           "apps/edward-desktop/src/assets"
         ],
         "styles": ["apps/edward-desktop/src/styles.scss"],
-        "scripts": []
+        "scripts": [],
+        "stylePreprocessorOptions": {
+          "includePaths": [
+            "shared-components/src/lib/styles"
+          ]
+        },
+        "extractCss": true
       },
       "configurations": {
         "production": {
